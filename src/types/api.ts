@@ -31,7 +31,7 @@ export interface Doc {
     rocket:                Rocket;
     success:               boolean;
     failures:              Failure[];
-    details:               null | string;
+    details:               string | null ;
     crew:                  any[];
     ships:                 string[];
     capsules:              string[];
